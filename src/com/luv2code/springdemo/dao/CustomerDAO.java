@@ -13,5 +13,9 @@ public interface CustomerDAO {
 
 	Customer getCustomers(int theId);
 
+	void deleteCustomer(int theId);
+
+	List<Customer> searchCustomers(String theSearchName);
+
 	
 }
