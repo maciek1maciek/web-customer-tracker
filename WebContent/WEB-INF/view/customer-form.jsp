@@ -32,6 +32,8 @@
 		<h3>Save Customer</h3>
 
 		<form:form action="saveCustomer" modelAttribute="customer" method="POST">
+		
+		<form:hidden path="id"/> <!-- hidden info of customer app must know which customer we are operating without it we lose contact with customer -->
 			<table>
 				<tbody>
 				
